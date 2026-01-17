@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Music Concert Ticket</title>
+</head>
+
+  <body style="
+  margin:0px;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: top 3px;
+  background-color:rgb(244, 244, 244);
+">
+
+<div style="
+  width:800px;
+  border:1px solid #070600;
+  background-color:white;
+  display:flex;
+">
+
+  
+  <div style="width:80%;">
+    <img src="final.png" style="width:100%; height:100%; object-fit:cover;">
+  </div>
+
+  
+  <div style="border-left:2px dashed #070600;"></div>
+
+  
+  <div style="width:30%; padding:12px;">
+    <div style="
+      text-align:center;
+      font-size:22px;
+      font-weight:bolder;
+      color:#b90f80;
+    ">
+   <b><em>CONCERT TICKET</em></b>
+   <hr color="black">
+    </div>
+
+   <h3><b><em> <p style="color: #020209;">Name : Keerthana</p></em></b></h3>
+    <h3><b><em> <p>Date:21/1/2026</p></em></b></h3>
+ <h3><b><em>    <p>Venue:NIT Durgapur</p></em></b></h3>
+ <h3><b><em> <p>Seat Number:H-49</p></em></b></h3>
+ <button onclick="showArtist()" style="
+  margin-top:10px;
+  padding:6px 10px;
+  border:1px solid #060605;
+  background-color:rgb(9, 9, 9);
+  color:#f9f6eb;
+  cursor:pointer;
+">
+  Know About The Artist
+</button>
+<div id="artistInfo" style="
+  display:none;
+  margin-top:8px;
+  font-size:13px;
+">
+  Artist: ARJIT SINGH <br>
+  Genre: Live Music <br>
+  Experience: the most famous personality who sang many hit songs in bollywood. <br>
+  Popular Songs: Tum Hi Ho, Channa Mereya, Raabta, etc.
+</div>
+
+  </div>
+
+</div>
+
+</div>
+<script>
+  function showArtist() {
+    document.getElementById("artistInfo").style.display = "block";
+  }
+</script>
+
+</body>
+</html>
